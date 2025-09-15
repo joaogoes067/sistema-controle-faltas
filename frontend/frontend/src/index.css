@@ -1,0 +1,25 @@
+/* index.css ou main.css */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f0f2f5; /* Cor de fundo suave para a página */
+  min-height: 100vh; /* Garante que o body ocupe 100% da altura da viewport */
+  display: flex; /* Habilita flexbox para centralização */
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Opcional: Remover estilos padrão do Vite se houver */
+#root {
+  display: flex; /* Habilita flexbox para centralização do App */
+  justify-content: center; /* Centraliza horizontalmente o App */
+}

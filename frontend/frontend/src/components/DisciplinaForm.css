@@ -1,0 +1,45 @@
+.disciplina-form-container {
+  max-width: 300px 300px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-control {
+  margin-bottom: 1rem;
+}
+
+.form-control label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.form-control input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-buttons-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px; /* Um pouco de espaço do formulário */
+}
+
+.form-buttons-container button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    font-size: 1rem;
+}
+
+.form-buttons-container button:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,47 @@
+/* DisciplinaList.css */
+.disciplina-list-container {
+  margin: 2rem auto;
+  max-width: 400px;
+  padding: 1rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.disciplina-list-container h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.disciplina-list-container ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.disciplina-list-container li {
+  padding: 0.75rem 0;
+  border-bottom: 1px solid #eee;
+  text-align: left;
+}
+
+.disciplina-list-container li:last-child {
+  border-bottom: none;
+}
+.button-container {
+  display: flex;
+  gap: 10px; /* Adiciona 10px de espaço entre os itens */
+  margin-top: 10px;
+}
+.button-container button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+}
+
+.button-container button:hover {
+  background-color: #0056b3;
+}

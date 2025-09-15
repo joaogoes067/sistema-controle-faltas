@@ -1,0 +1,7 @@
+/* App.css */
+.App {
+  text-align: center left; /* Centraliza o texto dentro do App, útil para títulos */
+  padding: 1rem; /* Um pouco de padding para não grudar nas bordas */
+  width: 100%; /* Garante que o App ocupe a largura total disponível */
+  max-width: 1200px; /* Limita a largura máxima para não esticar demais em telas grandes */
+}
